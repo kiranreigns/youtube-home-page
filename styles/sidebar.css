@@ -1,9 +1,9 @@
 .sidebar {
   position: fixed;
-  top: 55px;
+  top: 60px;
   left: 0;
   bottom: 0;
-  width: 60px;
+  width: 70px;
   background-color: #f7f6f6;
   overflow-y: auto;
   overflow-x: hidden;
@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60px;
+  height: 70px;
   width: 100%;
   /* background-color: aqua; */
   cursor: pointer;
@@ -30,7 +30,8 @@
 }
 
 .sidebar-icons {
-  height: 22px;
+  height: 25px;
+  margin-bottom: 5px;
 }
 
 .sidebar::-webkit-scrollbar {
@@ -39,5 +40,5 @@
 
 .sidebar p {
   margin: 0;
-  font-size: 8px;
+  font-size: 10px;
 }
